@@ -1,0 +1,110 @@
+{
+  // Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+  // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+  // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+  // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+  // Placeholders with the same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"scope": "javascript,typescript",
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+  "jdsoc-vuejs-data": {
+    "scope": "javascript,vue,vuejs",
+    "prefix": "jdsoc-vuejs-data",
+    "body": [
+      "/**",
+      "* ",
+      "* vmodel: mapeo del v-model a una variable interna",
+      "* @return {Array} variales del data",
+      "*/"
+    ],
+    "description": "Añadir jsdoc en el data"
+  },
+  "jsdoc-vuejs-vmodel-function": {
+    "scope": "javascript,vue,vuejs",
+    "prefix": "jsdoc-vuejs-vmodel-function",
+    "body": ["/**", "* Devuelve al padre el valor del vmodel", "*/"],
+    "description": "Añadir jsdoc en el vmodel"
+  },
+  "jsdoc-vuejs-value-function": {
+    "scope": "javascript,vue,vuejs",
+    "prefix": "jsdoc-vuejs-value-function",
+    "body": ["/**", "* Envia al componente Elements el valor del v-model", "*/"],
+    "description": "Añadir jsdoc en el vmodel"
+  },
+  "jsdoc-vuejs-all-function": {
+    "scope": "javascript,vue,vuejs",
+    "prefix": "jsdoc-vuejs-all-function",
+    "body": [
+      "/**",
+      "* Summary. (use period)",
+      "*",
+      "* @since x.x.x",
+      "* @deprecated x.x.x Use new_function_name() instead.",
+      "* @access private",
+      "*",
+      "* @class",
+      "* @augments parent",
+      "* @mixes mixin",
+      "*",
+      "* @alias realName",
+      "* @memberof namespace",
+      "*",
+      "* @see Function/class relied on",
+      "* @link URL",
+      "* @global",
+      "*",
+      "* @fires eventName",
+      "* @fires className#eventName",
+      "* @listens event:eventName",
+      "* @listens className~event:eventName",
+      "* @param {type} var Description.",
+      "* @param {type} [var] Description of optional variable.",
+      "* @param {type} [var=default] Description of optional variable with default variable.",
+      "* @param {Object} objectVar Description.  ",
+      "* @param {type} objectVar.key Description of a key in the objectVar parameter.",
+      "*",
+      "* @return {type} Description.",
+      "*/"
+    ],
+    "description": "Añadir jsdoc de toda la Function"
+  },
+  "jsdoc-vuejs-all-class": {
+    "scope": "javascript,vue,vuejs",
+    "prefix": "jsdoc-vuejs-all-class",
+    "body": [
+      "/**",
+      "* Summary. (use period)",
+      "*",
+      "* Description. (use period)",
+      "*",
+      "* @since x.x.x",
+      "* @deprecated x.x.x Use new_function_name() instead.",
+      "* @access private",
+      "*",
+      "* @constructs namespace.Class",
+      "* @augments Parent",
+      "* @mixes mixin",
+      "*",
+      "* @alias realName",
+      "* @memberof namespace",
+      "*",
+      "* @see Function/class relied on",
+      "* @link URL",
+      "* @fires Class#eventName",
+      "*",
+      "* @param {Object} attributes The model's attributes.",
+      "* @param {type} attributes.key One of the model's attributes.",
+      "* @param {Object} [options] The model's options.",
+      "* @param {type} attributes.key One of the model's options."
+    ],
+    "description": "Añadir jsdoc de toda la class"
+  }
+}
